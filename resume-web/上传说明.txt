@@ -1,0 +1,16 @@
+这是朱晓梦网页简历作品集的静态网站导出版。
+
+使用方式：
+1. 上传整个 resume-web 文件夹到任意静态网站空间。
+2. 网站入口文件是 index.html。
+3. 不需要数据库，也不需要后端服务。
+4. 后期替换作品图时，把图片放到 assets/portfolio/，再修改 script.js 里的 image、title、summary 即可。
+
+可用平台示例：
+- Netlify
+- Vercel
+- GitHub Pages
+- 宝塔面板 / 虚拟主机 / 公司服务器静态目录
+
+注意：
+- 不要只上传 index.html，必须连同 styles.css、script.js 和 assets 文件夹一起上传。
