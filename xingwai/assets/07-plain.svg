@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8e4dc"/><stop offset="1" stop-color="#d6d0c6"/></linearGradient>
+    <linearGradient id="cover"><stop stop-color="#eeeae0"/><stop offset=".4" stop-color="#faf7f0"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.7" height="1.8"><feDropShadow dx="9" dy="19" stdDeviation="13" flood-color="#635e50" flood-opacity=".25"/></filter>
+    <linearGradient id="art" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79836f"/><stop offset=".55" stop-color="#465a4a"/><stop offset="1" stop-color="#243f39"/></linearGradient>
+    <clipPath id="window"><rect x="32" y="164" width="229" height="169"/></clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g fill="#656357" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2"><text x="40" y="42">SLOW STORIES. CONSIDERED DESIGN.</text><text x="760" y="42" text-anchor="end">EDITORIAL / PRINT</text></g>
+  <g transform="translate(387 103) rotate(13 140 200)" filter="url(#shadow)">
+    <rect x="-3" y="6" width="285" height="398" fill="#c6c1b2"/><rect x="-7" y="4" width="285" height="398" fill="#f9f6ee"/>
+    <rect width="282" height="398" fill="#4c6054"/>
+    <text x="24" y="57" font-family="Georgia, serif" font-size="51" letter-spacing="-2" fill="#e9e7d8">plain.</text>
+    <text x="26" y="82" font-family="Arial, sans-serif" font-size="7" letter-spacing="1.5" fill="#bfc7b5">A JOURNAL OF EVERYDAY THINGS.</text>
+    <path d="M35 242C35 175 75 130 141 130C205 130 245 175 245 242V347H35Z" fill="#84917b"/>
+    <path d="M61 242C61 191 92 158 141 158C191 158 220 191 220 242V347H61Z" fill="#b3bca0"/>
+    <path d="M89 242C89 208 109 185 141 185C173 185 194 208 194 242V347H89Z" fill="#e4dfc5"/>
+    <text x="24" y="378" font-family="Arial, sans-serif" font-size="7" letter-spacing="1.2" fill="#d6ddcb">VOLUME 04 — THE SPACE ISSUE</text>
+  </g>
+  <g transform="translate(151 102) rotate(-9 147 205)" filter="url(#shadow)">
+    <path d="M-3 6H289V416H-3Z" fill="#d3cdbf"/><path d="M0 3H292V411H0Z" fill="#fcfaf4"/>
+    <g stroke="#cfc9bc" stroke-width=".6"><path d="M4 404H289M4 407H290"/></g>
+    <rect width="289" height="400" fill="url(#cover)"/>
+    <path d="M8 0V400" stroke="#bdb7a8" opacity=".55"/>
+    <text x="28" y="89" font-family="Georgia, serif" font-size="77" letter-spacing="-5" fill="#3e4438">plain.</text>
+    <text x="31" y="111" font-family="Arial, sans-serif" font-size="6.5" letter-spacing="1.7" fill="#6a6c5e">A JOURNAL OF EVERYDAY THINGS.</text>
+    <path d="M31 133H260" stroke="#b4b4a2" stroke-width=".5"/>
+    <text x="31" y="147" font-family="Arial, sans-serif" font-size="6" fill="#7a7e6e" letter-spacing="1.3">VOLUME 03</text><text x="260" y="147" text-anchor="end" font-family="Arial, sans-serif" font-size="6" fill="#7a7e6e" letter-spacing="1.3">THE QUIET ISSUE</text>
+    <g clip-path="url(#window)">
+      <rect x="32" y="164" width="229" height="169" fill="url(#art)"/>
+      <path d="M134 333L173 164H206L174 333Z" fill="#d2cbb0"/>
+      <path d="M178 333L214 164H227L203 333Z" fill="#e6debf"/>
+      <path d="M32 278L261 310V333H32Z" fill="#273c34"/>
+      <path d="M52 164L88 333H105L72 164Z" fill="#9b9d7d"/>
+      <path d="M32 197L261 254" stroke="#1f3e33" stroke-width="4"/>
+      <path d="M32 211L261 268" stroke="#adc0a0" opacity=".35" stroke-width="2"/>
+    </g>
+    <text x="32" y="359" font-family="Georgia, serif" font-size="13" fill="#59604c" font-style="italic">The art of paying attention.</text>
+    <text x="32" y="380" font-family="Arial, sans-serif" font-size="5.5" fill="#90927f" letter-spacing=".7">SPACES / OBJECTS / PEOPLE / RITUALS</text>
+    <g stroke="#6c7160"><path d="M223 361V382M226 361V382M230 361V382M233 361V382M238 361V382M241 361V382M244 361V382M249 361V382M253 361V382M257 361V382"/></g>
+  </g>
+  <text x="40" y="569" font-family="Georgia, serif" font-size="15" fill="#666658" font-style="italic">Finding beauty in the ordinary.</text><text x="760" y="569" text-anchor="end" font-family="Arial, sans-serif" font-size="9" letter-spacing="2" fill="#6d6d60">PLAIN JOURNAL — 2026</text>
+</svg>

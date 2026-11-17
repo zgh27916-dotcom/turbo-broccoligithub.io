@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eeeee9"/><stop offset="1" stop-color="#dedfdb"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#334fff"/><stop offset="1" stop-color="#1d35c7"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#94a5ff"/><stop offset=".55" stop-color="#667eff"/><stop offset="1" stop-color="#bfc9ff"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.2" width="1.5" height="1.6"><feDropShadow dx="5" dy="21" stdDeviation="16" flood-color="#313752" flood-opacity=".19"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#25282a"><text x="43" y="51" font-size="25" font-weight="700" letter-spacing="-1">Flow<tspan fill="#3b54ef">®</tspan></text><text x="757" y="49" text-anchor="end" font-size="10" letter-spacing="1.7">A LITTLE STRUCTURE. MORE POSSIBILITIES.</text></g>
+  <g transform="translate(47 118) rotate(-3 350 210)" filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect width="706" height="407" rx="12" fill="#fff"/>
+    <rect width="706" height="27" rx="12" fill="#fafafa"/><rect y="15" width="706" height="12" fill="#fafafa"/>
+    <g fill="#cfd1d8"><circle cx="16" cy="14" r="3"/><circle cx="27" cy="14" r="3"/><circle cx="38" cy="14" r="3"/></g>
+    <rect x="286" y="7" width="136" height="14" rx="4" fill="#ededef"/><text x="330" y="17" font-size="6" fill="#90939b">studio.flow</text>
+    <path d="M126 27V407" stroke="#ededef"/>
+    <text x="18" y="65" font-size="24" font-weight="700" letter-spacing="-1" fill="#1c2338">flow.</text>
+    <text x="18" y="102" font-size="6" fill="#a3a6af" letter-spacing="1">YOUR WORKSPACE</text>
+    <rect x="11" y="113" width="104" height="27" rx="6" fill="#ebefff"/>
+    <g fill="#4b5ce3"><rect x="21" y="123" width="7" height="7" rx="1"/><text x="37" y="131" font-size="8" font-weight="700">Overview</text></g>
+    <g fill="#7b7e8c" font-size="8"><text x="38" y="162">My projects</text><text x="38" y="193">Calendar</text><text x="38" y="224">Messages</text><text x="38" y="255">My team</text></g>
+    <g fill="none" stroke="#a8aab5" stroke-width="1"><rect x="21" y="154" width="8" height="8" rx="1"/><rect x="21" y="185" width="8" height="8" rx="1"/><path d="M21 215H29V221H25L21 224ZM21 253Q25 245 29 253M25 249A2 2 0 1 0 25 245A2 2 0 1 0 25 249"/></g>
+    <rect x="16" y="324" width="96" height="58" rx="7" fill="#f4f5fa"/><text x="27" y="342" font-size="7" font-weight="700" fill="#333a4d">Room for more?</text><text x="27" y="355" font-size="6" fill="#9295a0">Bring your team together.</text><text x="27" y="371" font-size="6" fill="#4860dd">Explore Flow Pro  ↗</text>
+    <text x="149" y="64" font-size="21" font-weight="700" fill="#252b3e" letter-spacing="-.7">Good morning, Alex</text><text x="150" y="82" font-size="8" fill="#9699a6">Make space for your next big idea.</text>
+    <circle cx="674" cy="60" r="12" fill="#eadbc8"/><text x="670" y="64" font-size="8" fill="#736256">A</text>
+    <rect x="150" y="105" width="360" height="132" rx="8" fill="url(#blue)"/>
+    <text x="167" y="128" font-size="7" fill="#bdc8ff" letter-spacing="1">YOUR CREATIVE SPACE</text><text x="167" y="157" font-size="22" fill="#fff" font-weight="700" letter-spacing="-.7">Keep the ideas</text><text x="167" y="180" font-size="22" fill="#fff" font-weight="700" letter-spacing="-.7">flowing.</text><rect x="167" y="197" width="85" height="23" rx="5" fill="#fff"/><text x="182" y="212" font-size="7" fill="#3d50d6">Start a project  +</text>
+    <g transform="translate(428 168) rotate(-30)"><ellipse rx="51" ry="35" fill="none" stroke="url(#glass)" stroke-width="16"/><ellipse rx="28" ry="50" fill="none" stroke="#9cafff" stroke-width="11"/></g>
+    <rect x="523" y="105" width="160" height="132" rx="8" fill="#f8f8fb"/><text x="537" y="128" font-size="9" font-weight="700" fill="#4a4e60">This week</text><text x="537" y="153" font-size="24" fill="#30384d" font-weight="700">24.5 <tspan font-size="8" fill="#9b9da6" font-weight="400">hrs</tspan></text>
+    <g fill="#dfe4fb"><rect x="539" y="189" width="12" height="28" rx="3"/><rect x="558" y="174" width="12" height="43" rx="3"/><rect x="577" y="183" width="12" height="34" rx="3"/><rect x="615" y="190" width="12" height="27" rx="3"/><rect x="634" y="179" width="12" height="38" rx="3"/><rect x="653" y="199" width="12" height="18" rx="3"/></g><rect x="596" y="163" width="12" height="54" rx="3" fill="#536bf0"/>
+    <text x="150" y="267" font-size="12" font-weight="700" fill="#31374b">Your projects</text><text x="650" y="267" font-size="7" fill="#9da0ad">View all  →</text>
+    <g transform="translate(150 280)"><rect width="168" height="101" rx="7" fill="#fff" stroke="#e9eaf0"/><rect x="13" y="13" width="25" height="25" rx="7" fill="#e8eaff"/><path d="M21 20H30V29H21Z" fill="none" stroke="#7885e7"/><text x="13" y="56" font-size="9" font-weight="700" fill="#45495d">Website redesign</text><text x="13" y="72" font-size="7" fill="#9a9eaa">12 tasks · 4 members</text><rect x="13" y="84" width="142" height="3" rx="1.5" fill="#ededef"/><rect x="13" y="84" width="99" height="3" rx="1.5" fill="#8495f5"/></g>
+    <g transform="translate(332 280)"><rect width="168" height="101" rx="7" fill="#fff" stroke="#e9eaf0"/><rect x="13" y="13" width="25" height="25" rx="7" fill="#f8e8df"/><circle cx="26" cy="25" r="6" fill="none" stroke="#c8a28e"/><text x="13" y="56" font-size="9" font-weight="700" fill="#45495d">Brand direction</text><text x="13" y="72" font-size="7" fill="#9a9eaa">8 tasks · 3 members</text><rect x="13" y="84" width="142" height="3" rx="1.5" fill="#ededef"/><rect x="13" y="84" width="67" height="3" rx="1.5" fill="#d6b69c"/></g>
+    <g transform="translate(514 280)"><rect width="169" height="101" rx="7" fill="#fff" stroke="#e9eaf0"/><rect x="13" y="13" width="25" height="25" rx="7" fill="#e5eee7"/><path d="M21 26L25 21L31 29H20Z" fill="none" stroke="#84aa92"/><text x="13" y="56" font-size="9" font-weight="700" fill="#45495d">Creative archive</text><text x="13" y="72" font-size="7" fill="#9a9eaa">16 tasks · 2 members</text><rect x="13" y="84" width="142" height="3" rx="1.5" fill="#ededef"/><rect x="13" y="84" width="123" height="3" rx="1.5" fill="#96b6a1"/></g>
+  </g>
+  <text x="44" y="577" font-family="Arial, Helvetica, sans-serif" fill="#727674" font-size="9" letter-spacing="2">DIGITAL PRODUCT / UI &amp; UX DESIGN</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx=".57" cy=".3" r=".8"><stop stop-color="#492573"/><stop offset=".38" stop-color="#211634"/><stop offset="1" stop-color="#100e1d"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#decaff" stop-opacity=".9"/><stop offset=".12" stop-color="#8e6bc2" stop-opacity=".38"/><stop offset=".31" stop-color="#21133f" stop-opacity=".7"/><stop offset=".49" stop-color="#c1b4f2" stop-opacity=".88"/><stop offset=".59" stop-color="#8154be" stop-opacity=".4"/><stop offset=".77" stop-color="#25153c" stop-opacity=".75"/><stop offset=".93" stop-color="#cfbcff" stop-opacity=".9"/><stop offset="1" stop-color="#8875b5" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faeaff"/><stop offset=".2" stop-color="#805aaf"/><stop offset=".38" stop-color="#dcc7ff"/><stop offset=".51" stop-color="#ac69da"/><stop offset=".7" stop-color="#565187"/><stop offset="1" stop-color="#e1c8ff"/></linearGradient>
+    <linearGradient id="inner" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#704198"/><stop offset=".5" stop-color="#d6b8f8"/><stop offset=".7" stop-color="#41375c"/><stop offset="1" stop-color="#9369ba"/></linearGradient>
+    <filter id="blur" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="soft" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="4"/></filter>
+    <clipPath id="canvas"><rect width="800" height="600"/></clipPath>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="800" height="600" fill="url(#bg)"/>
+    <ellipse cx="495" cy="250" rx="160" ry="135" fill="#8e50b9" opacity=".18" filter="url(#blur)"/>
+    <ellipse cx="468" cy="357" rx="183" ry="39" fill="#06060f" opacity=".55" filter="url(#blur)"/>
+    <g font-family="Arial, Helvetica, sans-serif" fill="#d4c3e9" font-size="9" letter-spacing="2"><text x="37" y="40">NEON® STUDIO</text><text x="763" y="40" text-anchor="end">VISUAL CAMPAIGN / 2026</text></g>
+    <path d="M37 58H763" stroke="#ac8cc0" opacity=".4" stroke-width=".6"/>
+    <text x="40" y="116" font-family="Arial, Helvetica, sans-serif" fill="#a790c4" font-size="10" letter-spacing="2.4">THE FUTURE HAS</text><text x="40" y="134" font-family="Arial, Helvetica, sans-serif" fill="#a790c4" font-size="10" letter-spacing="2.4">A SOFTER EDGE.</text>
+    <g transform="translate(456 242) rotate(-24)">
+      <path d="M-174-93C-123-174-26-185 40-163C105-141 155-80 172-8C191 70 145 142 74 161C8 180-28 133-87 139C-159 146-217 109-217 47C-217-12-204-45-174-93ZM-108-43C-127-12-141 13-138 48C-134 73-112 77-77 75C-13 72 15 114 52 102C97 87 110 44 98-1C85-51 59-87 14-101C-32-115-81-91-108-43Z" fill="#a875ef" opacity=".25" filter="url(#soft)"/>
+      <path d="M-174-93C-123-174-26-185 40-163C105-141 155-80 172-8C191 70 145 142 74 161C8 180-28 133-87 139C-159 146-217 109-217 47C-217-12-204-45-174-93ZM-108-43C-127-12-141 13-138 48C-134 73-112 77-77 75C-13 72 15 114 52 102C97 87 110 44 98-1C85-51 59-87 14-101C-32-115-81-91-108-43Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.4" fill-rule="evenodd"/>
+      <path d="M-175-90C-117-165-27-177 37-154C104-130 151-72 164-7C180 68 137 133 72 152" fill="none" stroke="url(#edge)" stroke-width="5" opacity=".7"/>
+      <path d="M-108-43C-127-12-141 13-138 48C-134 73-112 77-77 75C-13 72 15 114 52 102C97 87 110 44 98-1C85-51 59-87 14-101C-32-115-81-91-108-43Z" fill="none" stroke="url(#inner)" stroke-width="9" opacity=".5"/>
+      <path d="M-186 55C-189-13-162-86-96-126C-49-155 4-152 42-139" fill="none" stroke="#eddbff" stroke-width="2.5" opacity=".85" stroke-linecap="round"/>
+      <path d="M106 22C118 72 77 119 44 120C10 120-11 101-38 95" fill="none" stroke="#ead3ff" stroke-width="2" opacity=".8" stroke-linecap="round"/>
+      <path d="M-130 20C-127-29-94-85-43-95" fill="none" stroke="#fff0ff" stroke-width="1.4" opacity=".65"/>
+      <path d="M130-66C144-37 150-17 150 8" fill="none" stroke="#c49ee5" stroke-width="11" opacity=".25" filter="url(#soft)"/>
+    </g>
+    <path d="M659 143V177M642 160H676M649 150L669 170M649 170L669 150" fill="none" stroke="#e7c9ff" stroke-width="1" opacity=".85"/>
+    <circle cx="254" cy="331" r="3" fill="#c79bee"/><circle cx="681" cy="330" r="1.5" fill="#d8b8fa"/>
+    <g font-family="Arial, Helvetica, sans-serif" fill="#f0e8fa"><text x="30" y="515" font-size="133" font-weight="700" letter-spacing="-7">NEON</text><text x="763" y="462" font-size="33" font-weight="400" text-anchor="end" letter-spacing="2">NEW</text><text x="763" y="506" font-size="33" font-weight="400" text-anchor="end" letter-spacing="2">VISION ↗</text></g>
+    <path d="M37 542H763" stroke="#ac8cc0" opacity=".45" stroke-width=".6"/>
+    <g font-family="Arial, Helvetica, sans-serif" fill="#aa94c3" font-size="8" letter-spacing="1.6"><text x="37" y="569">DESIGN IN A DIFFERENT LIGHT.</text><text x="763" y="569" text-anchor="end">SOFT FUTURES / LIQUID FORMS</text></g>
+  </g>
+</svg>

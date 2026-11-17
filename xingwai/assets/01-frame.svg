@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6e87ff"/><stop offset=".38" stop-color="#2b3dff"/><stop offset="1" stop-color="#0929b5"/></linearGradient>
+    <linearGradient id="tube" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#1622c5"/><stop offset=".35" stop-color="#9baaff"/><stop offset=".49" stop-color="#5267ff"/><stop offset=".8" stop-color="#172ed9"/><stop offset="1" stop-color="#021e89"/></linearGradient>
+    <filter id="shadow" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="13"/></filter>
+    <clipPath id="canvas"><rect width="800" height="600"/></clipPath>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="800" height="600" fill="#d7fb45"/>
+    <g fill="#171b14" font-family="Arial, Helvetica, sans-serif">
+      <text x="40" y="40" font-size="11" font-weight="700" letter-spacing="1.2">INDEPENDENT DESIGN JOURNAL</text>
+      <text x="744" y="40" font-size="11" text-anchor="end">ISSUE NO. 026</text>
+      <path d="M40 57H760" stroke="#171b14"/>
+      <text x="33" y="228" font-size="172" font-weight="900" letter-spacing="-13">FRAME</text>
+      <text x="41" y="273" font-size="17" font-weight="700" letter-spacing=".8">A NEW WAY OF SEEING.</text>
+      <text x="44" y="410" font-size="92" font-weight="400" letter-spacing="-6">20<tspan font-weight="800">26</tspan></text>
+      <text x="44" y="463" font-size="11" letter-spacing="1">IDEAS BEYOND THE ORDINARY.</text>
+      <text x="44" y="480" font-size="11" letter-spacing="1">EXPLORE THE SPACE BETWEEN.</text>
+      <path d="M46 528H320M300 508L320 528L300 548" fill="none" stroke="#171b14" stroke-width="2"/>
+      <text x="44" y="572" font-size="10" letter-spacing="1.5">ART / CULTURE / NEW PERSPECTIVES</text>
+    </g>
+    <ellipse cx="646" cy="570" rx="163" ry="32" fill="#4d581f" opacity=".2" filter="url(#shadow)"/>
+    <g transform="translate(631 440) rotate(-28)">
+      <ellipse rx="182" ry="205" fill="url(#blue)"/>
+      <ellipse cx="-15" cy="-8" rx="113" ry="143" fill="#1126ba"/>
+      <ellipse cx="-19" cy="-7" rx="96" ry="125" fill="#d7fb45"/>
+      <ellipse cx="-8" cy="-5" rx="152" ry="174" fill="none" stroke="url(#tube)" stroke-width="47"/>
+      <path d="M-109-102C-70-169 31-187 97-130" stroke="#afbcff" stroke-width="4" fill="none" opacity=".65"/>
+    </g>
+    <path d="M744 86V116M729 101H759" stroke="#171b14" stroke-width="1.5"/>
+  </g>
+</svg>

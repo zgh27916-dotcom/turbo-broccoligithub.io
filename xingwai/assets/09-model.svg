@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx=".52" cy=".46"><stop stop-color="#201442"/><stop offset=".65" stop-color="#0e1023"/><stop offset="1" stop-color="#070b17"/></radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b49cfa"/><stop offset=".1" stop-color="#4b497b"/><stop offset=".28" stop-color="#121a34"/><stop offset=".53" stop-color="#373750"/><stop offset=".72" stop-color="#10172b"/><stop offset=".9" stop-color="#666a99"/><stop offset="1" stop-color="#1c2341"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#98e9ff"/><stop offset=".5" stop-color="#9c74fa"/><stop offset="1" stop-color="#c991f8"/></linearGradient>
+    <radialGradient id="ear"><stop stop-color="#171b35"/><stop offset=".5" stop-color="#111a2d"/><stop offset=".64" stop-color="#353558"/><stop offset=".8" stop-color="#11192e"/><stop offset=".9" stop-color="#444b78"/><stop offset="1" stop-color="#151c35"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6671a4" stroke-width=".5" opacity=".16"/></pattern>
+    <filter id="glow" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="7"/></filter>
+    <clipPath id="left"><ellipse cx="238" cy="354" rx="70" ry="102"/></clipPath>
+    <clipPath id="right"><ellipse cx="562" cy="354" rx="70" ry="102"/></clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <g stroke="#69698f" stroke-width=".6" opacity=".5"><path d="M63 113H737M63 459H737M126 76V475M674 76V475" stroke-dasharray="4 6"/><path d="M63 104V122M737 104V122M117 76H135M665 76H683M63 450V468M737 450V468"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#929bbf" font-size="9" letter-spacing="2"><text x="34" y="37">HARD SURFACE / FORM STUDY</text><text x="766" y="37" text-anchor="end">3D MODELING — 001</text></g>
+  <ellipse cx="400" cy="443" rx="211" ry="36" fill="#a370ff" opacity=".13" filter="url(#glow)"/>
+  <path d="M222 333C194 66 608 66 578 333" fill="none" stroke="#090f20" stroke-width="63"/>
+  <path d="M222 333C194 66 608 66 578 333" fill="none" stroke="url(#metal)" stroke-width="53"/>
+  <g fill="none" stroke="url(#cyan)" stroke-width=".9" opacity=".8">
+    <path d="M198 328C170 42 631 42 602 328M205 330C178 51 623 51 595 330M213 332C185 61 615 61 587 332M230 335C204 83 596 83 570 335M237 336C211 93 588 93 563 336M245 337C220 103 580 103 555 337"/>
+    <path d="M195 287L243 293M195 261L244 271M197 235L247 249M202 211L253 228M212 185L263 208M227 163L275 191M245 143L290 177M267 126L307 166M293 111L328 157M323 101L350 150M354 94L374 146M388 91L399 144M423 92L424 146M455 97L447 152M487 107L469 162M516 121L488 175M541 137L505 191M563 158L521 210M579 182L533 232M590 207L541 255M597 233L546 279M601 260L549 303M603 287L552 328"/>
+  </g>
+  <path d="M226 199C291 81 509 81 574 199" fill="none" stroke="#d4c3ff" stroke-width="2" opacity=".67"/>
+  <g fill="url(#metal)" stroke="#8a8db9" stroke-width=".7"><path d="M205 294L238 289L253 359L219 365Z"/><path d="M595 294L562 289L547 359L581 365Z"/></g>
+  <g transform="rotate(-9 238 354)">
+    <ellipse cx="238" cy="354" rx="79" ry="111" fill="#070e1e" stroke="#4e4c75"/>
+    <ellipse cx="238" cy="354" rx="73" ry="105" fill="url(#ear)" stroke="url(#cyan)" stroke-width="1.1"/>
+    <g clip-path="url(#left)" fill="none" stroke="#8ca9de" stroke-width=".7" opacity=".65">
+      <ellipse cx="238" cy="354" rx="58" ry="94"/><ellipse cx="238" cy="354" rx="43" ry="93"/><ellipse cx="238" cy="354" rx="26" ry="95"/><ellipse cx="238" cy="354" rx="10" ry="99"/>
+      <ellipse cx="238" cy="279" rx="60" ry="13"/><ellipse cx="238" cy="303" rx="68" ry="18"/><ellipse cx="238" cy="328" rx="72" ry="21"/><ellipse cx="238" cy="354" rx="73" ry="23"/><ellipse cx="238" cy="380" rx="72" ry="21"/><ellipse cx="238" cy="405" rx="68" ry="18"/><ellipse cx="238" cy="429" rx="60" ry="13"/>
+    </g>
+    <ellipse cx="238" cy="354" rx="37" ry="59" fill="#0e1930" stroke="#6c6da8"/>
+    <path d="M222 332V376M230 322V386M238 318V390M246 322V386M254 332V376" stroke="#665b97" stroke-width="1.5"/>
+    <path d="M207 277C185 296 172 332 180 373" fill="none" stroke="#b8d6ff" stroke-width="1.7" opacity=".7"/>
+  </g>
+  <g transform="rotate(9 562 354)">
+    <ellipse cx="562" cy="354" rx="79" ry="111" fill="#070e1e" stroke="#4e4c75"/>
+    <ellipse cx="562" cy="354" rx="73" ry="105" fill="url(#ear)" stroke="url(#cyan)" stroke-width="1.1"/>
+    <g clip-path="url(#right)" fill="none" stroke="#8f84dd" stroke-width=".7" opacity=".7">
+      <ellipse cx="562" cy="354" rx="58" ry="94"/><ellipse cx="562" cy="354" rx="43" ry="93"/><ellipse cx="562" cy="354" rx="26" ry="95"/><ellipse cx="562" cy="354" rx="10" ry="99"/>
+      <ellipse cx="562" cy="279" rx="60" ry="13"/><ellipse cx="562" cy="303" rx="68" ry="18"/><ellipse cx="562" cy="328" rx="72" ry="21"/><ellipse cx="562" cy="354" rx="73" ry="23"/><ellipse cx="562" cy="380" rx="72" ry="21"/><ellipse cx="562" cy="405" rx="68" ry="18"/><ellipse cx="562" cy="429" rx="60" ry="13"/>
+    </g>
+    <ellipse cx="562" cy="354" rx="37" ry="59" fill="#111a32" stroke="#8c77bf"/>
+    <path d="M546 332V376M554 322V386M562 318V390M570 322V386M578 332V376" stroke="#8166aa" stroke-width="1.5"/>
+    <path d="M593 277C615 296 628 332 620 373" fill="none" stroke="#b3b4ff" stroke-width="1.7" opacity=".7"/>
+  </g>
+  <g fill="none" stroke="#6f87b7" stroke-width=".8"><path d="M310 390L342 413H425"/><circle cx="310" cy="390" r="3"/><path d="M514 258L648 214H722"/><circle cx="514" cy="258" r="3"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#91a5ce" font-size="7" letter-spacing="1"><text x="347" y="405">QUAD TOPOLOGY</text><text x="651" y="207">SUBDIV. LEVEL 02</text></g>
+  <text x="34" y="548" fill="#d7d2ee" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="76" letter-spacing="5">MESH</text>
+  <text x="766" y="523" text-anchor="end" font-family="Arial, Helvetica, sans-serif" fill="#b49bdc" font-size="13" letter-spacing="3">BUILT TO BE HEARD.</text><text x="766" y="546" text-anchor="end" font-family="Arial, Helvetica, sans-serif" fill="#67728f" font-size="9" letter-spacing="2">WIREFRAME / MATERIAL / FORM</text>
+  <path d="M35 570H765" stroke="#474762" stroke-width=".6"/><text x="35" y="587" font-family="Arial, Helvetica, sans-serif" fill="#6b7497" font-size="8" letter-spacing="2">CONCEPT HEADPHONES — DIGITAL OBJECT EXPLORATION</text>
+</svg>

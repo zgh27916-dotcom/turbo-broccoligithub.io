@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ebe7d9"/><stop offset="1" stop-color="#d9d5c6"/></linearGradient>
+    <linearGradient id="paper"><stop stop-color="#f8f5e7"/><stop offset=".65" stop-color="#e7e3cf"/><stop offset="1" stop-color="#d4d0bd"/></linearGradient>
+    <linearGradient id="green"><stop stop-color="#304b32"/><stop offset=".68" stop-color="#3d5b39"/><stop offset="1" stop-color="#233e2a"/></linearGradient>
+    <filter id="soft" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="12"/></filter>
+    <g id="leaf" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 0C-25-40-30-75-2-105C16-70 22-36 0 0ZM0 0L-2-94M-2-65L-14-76M-2-44L10-59M-1-23L-15-44"/></g>
+  </defs>
+  <rect width="800" height="600" fill="url(#back)"/>
+  <path d="M0 430L800 347V600H0Z" fill="#e0ddce"/>
+  <path d="M0 430L800 347" stroke="#d4d0c1"/>
+  <g fill="#3b4c37" font-family="Arial, Helvetica, sans-serif"><text x="44" y="51" font-size="30" letter-spacing="6">MORI</text><text x="45" y="73" font-size="9" letter-spacing="2.2">THE QUIET RITUAL</text><text x="753" y="51" text-anchor="end" font-size="10" letter-spacing="1">BOTANICAL TEA / BRAND IDENTITY</text></g>
+  <ellipse cx="416" cy="506" rx="225" ry="31" fill="#4b5037" opacity=".18" filter="url(#soft)"/>
+  <g transform="translate(423 115)">
+    <path d="M0 8L153 0L187 19L32 30Z" fill="#536947"/>
+    <path d="M153 0L187 19V366L153 350Z" fill="#223c2b"/>
+    <path d="M0 8L153 0V350L0 359Z" fill="url(#green)"/>
+    <g fill="#e8ecd4" font-family="Georgia, serif"><text x="25" y="85" font-size="35" letter-spacing="3">mori.</text><text x="25" y="111" font-size="9" font-family="Arial, sans-serif" letter-spacing="2">SLOW DOWN. SIP IN.</text></g>
+    <g transform="translate(73 253)" color="#c6d3ad"><use href="#leaf"/><g transform="rotate(-42)"><use href="#leaf"/></g><g transform="rotate(42) scale(.85)"><use href="#leaf"/></g></g>
+    <path d="M22 286H128" stroke="#869974" stroke-width=".7"/>
+    <text x="24" y="309" font-family="Arial, sans-serif" font-size="9" letter-spacing="2" fill="#e8ecd4">JASMINE GREEN</text><text x="24" y="328" font-family="Arial, sans-serif" font-size="8" fill="#b9c5a8">LOOSE LEAF TEA · 60 g</text>
+  </g>
+  <g transform="translate(194 229) rotate(-3)">
+    <path d="M0 0H167L179 250H-10Z" fill="url(#paper)"/>
+    <path d="M0 0H167L156 21H9Z" fill="#c2c0ad"/><path d="M9 21H156" stroke="#aaa995"/>
+    <path d="M-10 250L7 236L0 37M179 250L161 236L167 32" fill="none" stroke="#c6c3ae"/>
+    <g fill="#354b32" text-anchor="middle"><text x="83" y="83" font-size="44" font-family="Georgia, serif" letter-spacing="1">mori.</text><text x="83" y="107" font-family="Arial, sans-serif" font-size="8" letter-spacing="2">NATURALLY AT EASE</text></g>
+    <g transform="translate(87 175) scale(.55)" color="#58704a"><use href="#leaf"/><g transform="rotate(40)"><use href="#leaf"/></g><g transform="rotate(-40)"><use href="#leaf"/></g></g>
+    <rect x="14" y="190" width="138" height="34" fill="#45613e"/><text x="83" y="211" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" letter-spacing="1.7" fill="#f4f2df">FOREST OOLONG</text><text x="83" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" letter-spacing="1.2" fill="#56604a">A MOMENT, JUST FOR YOU. / 60 g</text>
+  </g>
+  <g transform="translate(592 357)">
+    <ellipse cx="26" cy="116" rx="54" ry="11" fill="#334630" opacity=".1"/>
+    <path d="M-15 33C-8 25 71 25 78 33L67 107C57 119 5 119-6 107Z" fill="#f0eee2"/>
+    <ellipse cx="31" cy="33" rx="47" ry="12" fill="#faf8ef"/>
+    <ellipse cx="31" cy="33" rx="38" ry="7" fill="#918f55"/>
+    <path d="M77 48C112 39 112 86 74 85" fill="none" stroke="#f0eee2" stroke-width="10"/>
+  </g>
+  <text x="44" y="566" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" fill="#646c55">FROM THE FOREST, WITH CARE.</text>
+  <path d="M690 548H754M742 537L754 548L742 559" fill="none" stroke="#46583e"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7c6d5"/><stop offset="1" stop-color="#ecb1c6"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#fb753a"/><stop offset=".6" stop-color="#f96031"/><stop offset="1" stop-color="#da4928"/></linearGradient>
+    <filter id="shadow" x="-.5" y="-.5" width="2" height="2"><feDropShadow dx="4" dy="16" stdDeviation="11" flood-color="#ab536f" flood-opacity=".27"/></filter>
+    <g id="flower" fill="#f96532"><ellipse cy="-57" rx="29" ry="59"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(45)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(90)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(135)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(180)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(225)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(270)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(315)"/><circle r="31" fill="#f6c0d1"/></g>
+  </defs>
+  <rect width="800" height="600" fill="url(#pink)"/>
+  <g fill="#c84731" font-family="Arial, Helvetica, sans-serif"><text x="37" y="42" font-size="10" font-weight="700" letter-spacing="2">GROW IN YOUR OWN WAY.</text><text x="761" y="42" text-anchor="end" font-size="10" font-weight="700" letter-spacing="2">BLOOM / BRAND IDENTITY</text></g>
+  <g transform="translate(192 254) rotate(-12)"><use href="#flower"/></g>
+  <text x="33" y="505" font-family="Arial, Helvetica, sans-serif" font-size="119" font-weight="900" letter-spacing="-8" fill="#dc512f">bloom</text>
+  <text x="41" y="539" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="4" fill="#bc472f">EVERYDAY, A LITTLE BRIGHTER.</text>
+  <g transform="translate(416 131) rotate(10 116 160)" filter="url(#shadow)">
+    <path d="M0 0H208L243 23H35Z" fill="#ff9d65"/>
+    <path d="M208 0L243 23V346L208 325Z" fill="#ce462a"/>
+    <rect width="208" height="325" fill="url(#orange)"/>
+    <text x="17" y="58" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="900" letter-spacing="-3" fill="#ffe0e1">bloom</text>
+    <text x="20" y="83" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" letter-spacing="1.2" fill="#ffe0e1">A FRESH START, DAILY.</text>
+    <g transform="translate(107 183) scale(.59)"><g fill="#f9becf"><ellipse cy="-57" rx="29" ry="59"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(45)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(90)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(135)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(180)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(225)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(270)"/><ellipse cy="-57" rx="29" ry="59" transform="rotate(315)"/></g><circle r="31" fill="#ed6436"/></g>
+    <path d="M20 267H186" stroke="#ffbc9c" stroke-width=".6"/><text x="20" y="287" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="1" fill="#ffe0e1">GOOD ENERGY. GREAT DAYS.</text><text x="20" y="306" font-family="Arial, Helvetica, sans-serif" font-size="7" fill="#ffd1c3">NATURAL CARE / 120 ml</text>
+  </g>
+  <g transform="translate(626 360) rotate(-8)" filter="url(#shadow)">
+    <rect x="2" y="-31" width="72" height="38" rx="8" fill="#f38c6a"/><rect x="8" y="-33" width="60" height="8" rx="4" fill="#e57553"/>
+    <rect x="-6" y="0" width="88" height="125" rx="18" fill="#f97342"/><rect x="-6" y="37" width="88" height="64" fill="#f8d6de"/>
+    <text x="1" y="67" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="900" letter-spacing="-1.6" fill="#dc5d39">bloom</text><text x="3" y="84" font-family="Arial, Helvetica, sans-serif" font-size="5.5" letter-spacing=".5" fill="#c46551">GENTLE DAILY FORMULA</text>
+  </g>
+  <path d="M42 570H758" stroke="#cc7c89" stroke-width=".7"/>
+  <text x="42" y="588" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="1.5" fill="#aa5f68">A BRAND FOR THE BRIGHT SIDE OF LIFE.</text>
+</svg>
