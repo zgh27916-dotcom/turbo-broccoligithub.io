@@ -4,7 +4,7 @@
 .x-motion-target>img{display:block;transform-origin:center;backface-visibility:hidden;transition:transform 220ms ease,filter 180ms ease}
 .x-water-filter-defs{position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .x-artwork-effects,.x-artwork-glow,.x-artwork-water{position:absolute;inset:0;pointer-events:none;border-radius:inherit;overflow:hidden}
-.x-cursor-water{position:fixed;inset:0;z-index:999;overflow:hidden;pointer-events:none;contain:strict;opacity:.2}
+.x-cursor-water{position:fixed;inset:0;z-index:999;overflow:hidden;pointer-events:none;contain:strict}
 .x-cursor-water .x-water-ring{border-width:1px;box-shadow:0 0 5px #b5ceff40,inset 0 0 7px #b0dfff12}
 .x-pulses .x-pulse{font-size:18px;color:#edbdff;text-shadow:0 0 6px #ca89ffb3,0 0 12px #b66be452}
 .x-pulses .x-pulse:nth-child(even){color:#c1edff;text-shadow:0 0 6px #a5d9ff9c,0 0 12px #89c5ff42}
@@ -15,7 +15,20 @@
 .x-motion-target[data-motion-active=true]>img:not([aria-hidden=true]){transform:perspective(900px) translate3d(var(--motion-pan-x),var(--motion-pan-y),0) rotateX(var(--motion-tilt-x)) rotateY(var(--motion-tilt-y)) scale(1.02);filter:var(--water-filter,none) brightness(1.015);will-change:transform}
 .x-water-banner[data-motion-active=true]>.x-carousel-reference-image{transform:scale(1.006);filter:var(--water-filter,none) brightness(1.012)}
 .x-motion-target:focus-visible{outline:2px solid #d0a3ff;outline-offset:4px;border-color:#cca1f4;box-shadow:0 0 22px #a961d72b}
-.x-artwork-water{mix-blend-mode:normal;opacity:.22}
+.x-artwork-water{mix-blend-mode:normal}
+.x-water-ring,.x-water-caustic{filter:opacity(.2)}
+/* Each throttled pointer sample leaves one small glint, alongside the softer rings. */
+.x-water-ripple::after{
+ content:"✦";position:absolute;left:calc(50% + 6px);top:calc(50% - 15px);
+ color:#ffeaca;font:14px/1 Georgia,serif;text-shadow:0 0 5px #9e88fd;
+ animation:x-moon-glint 760ms ease-out both;
+}
+.x-water-ripple:nth-child(even)::after{color:#e0d7ff;font-size:11px}
+@keyframes x-moon-glint{
+ 0%{opacity:.7;transform:scale(.55)}
+ 20%{opacity:1;transform:translate(2px,-3px) scale(1)}
+ 100%{opacity:0;transform:translate(7px,-17px) scale(.45)}
+}
 .x-water-ripple{position:absolute;display:block;width:var(--water-size,168px);height:var(--water-size,168px);transform:translate(-50%,-50%);pointer-events:none}
 .x-water-ring{position:absolute;display:block;inset:0;border:1.4px solid #ccecffae;border-radius:50%;box-shadow:0 0 4px #d5b8ff70,0 0 15px #99dfff28,inset 0 0 8px #c8b0ff22;opacity:0;will-change:transform,opacity;animation:x-water-expand 950ms cubic-bezier(.14,.55,.26,1) var(--water-delay,0ms) both}
 .x-water-ring:nth-child(3){border-color:#ac80f0ba;border-width:1px;box-shadow:0 0 6px #c6a1ff73,inset 0 0 8px #9ce7ff1c}

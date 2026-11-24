@@ -1,33 +1,36 @@
-/* Blue smoked glass: one material layer over the existing site layout. */
+/* Moonlit gallery. Artwork stays unfiltered above the frosted surfaces. */
 :root{
- --x-bg:#030b1c;
+ --x-bg:#090c25;
  --x-text:#f2f7ff;
  --x-muted:#aec1dd;
- --x-glass-line:rgba(222,242,255,.42);
- --x-glass-fill:linear-gradient(135deg,rgba(232,246,255,.17),rgba(185,221,255,.035) 40%,rgba(4,17,38,.32));
+ --x-glass-line:rgba(184,184,251,.28);
+ --x-glass-fill:linear-gradient(140deg,rgba(112,119,198,.25),rgba(42,45,95,.43) 47%,rgba(23,26,63,.65));
  --x-glass-blur:blur(14px) saturate(130%) brightness(.78);
- --x-glass-shadow:inset 1px 1px 1px rgba(243,251,255,.43),inset -1px -1px 1px rgba(206,235,255,.10),0 0 0 1px rgba(3,13,31,.22),0 16px 36px rgba(0,5,20,.24);
- background:#030b1c;
+ --x-glass-shadow:inset 0 1px 1px rgba(223,221,255,.18),0 12px 34px rgba(3,3,22,.25);
+ background:var(--x-bg);
 }
 body{
  isolation:isolate;
  color:var(--x-text);
- background-color:#061226;
- background-image:radial-gradient(ellipse 900px 850px at 75% 25%,rgba(52,104,193,.16),transparent 72%);
+ background-color:var(--x-bg);
+ background-image:radial-gradient(ellipse at 86% 27%,#31336680,transparent 55%),radial-gradient(ellipse at 6% 90%,#26295770,transparent 48%);
  background-attachment:fixed;
  background-repeat:no-repeat;
 }
 .x-glass-scene{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
-.x-glass-scene>svg{width:100%;height:100%;display:block;opacity:.83}
+.x-glass-scene{
+ background-image:radial-gradient(circle at 49px 63px,#dedaff88 .8px,transparent 1.6px),radial-gradient(circle at 103px 15px,#a3b4f675 .8px,transparent 1.4px),radial-gradient(circle at 172px 112px,#ffe3bd66 .65px,transparent 1.3px);
+ background-size:319px 231px,193px 269px,277px 167px;
+}
 .x-header{
- background:linear-gradient(115deg,rgba(235,248,255,.10),rgba(6,18,40,.20));
+ background:linear-gradient(115deg,rgba(31,33,70,.88),rgba(13,16,47,.86));
  border-color:rgba(220,241,255,.28);
  box-shadow:inset 0 1px rgba(245,251,255,.20),0 6px 28px rgba(0,4,18,.15);
  -webkit-backdrop-filter:blur(16px) saturate(140%);
  backdrop-filter:blur(16px) saturate(140%);
 }
 .x-subnav{
- background:rgba(9,25,50,.55);
+ background:rgba(15,17,48,.72);
  border-color:rgba(172,209,255,.13);
  -webkit-backdrop-filter:blur(18px) saturate(130%);
  backdrop-filter:blur(18px) saturate(130%);
@@ -38,7 +41,8 @@ body{
  box-shadow:inset 0 1px rgba(235,247,255,.15);
 }
 .x-home-showcase{
- grid-template-columns:280px minmax(0,1fr);
+ grid-template-columns:minmax(0,1fr);
+ gap:34px;
  padding:0;
  border:0;
  border-radius:0;
@@ -53,15 +57,32 @@ body{
  position:relative;
  isolation:isolate;
  align-self:start;
- padding:26px 22px;
+ min-height:clamp(340px,31vw,445px);
+ padding:clamp(32px,4.5vw,76px);
+ gap:18px;
+ justify-content:center;
  border:1px solid var(--x-glass-line);
  border-radius:24px;
- background:var(--x-glass-fill);
+ background:#0c0d34;
  box-shadow:var(--x-glass-shadow);
  -webkit-backdrop-filter:var(--x-glass-blur);
  backdrop-filter:var(--x-glass-blur);
 }
-.x-home-intro.x-showcase-intro::before{content:"";position:absolute;inset:1px;border-radius:inherit;z-index:-1;pointer-events:none;background:linear-gradient(125deg,rgba(246,252,255,.10),transparent 30%,transparent 70%,rgba(226,245,255,.03))}
+.x-home-intro.x-showcase-intro::before{
+ content:"";position:absolute;inset:0 0 0 auto;height:100%;aspect-ratio:16/9;max-width:100%;border-radius:inherit;z-index:-1;pointer-events:none;
+ background:url("./assets/moonlit-studio.webp") right center / cover no-repeat;
+ mask-image:linear-gradient(90deg,transparent,#000 29%);
+}
+.x-showcase-intro .x-eyebrow{background:none;border:0;padding:0;gap:9px;color:#d2c8ff;font:600 11px/1.5 "Segoe UI",sans-serif;letter-spacing:2.1px}
+.x-showcase-intro .x-eyebrow span{color:#ffe3ae;font-size:17px}
+.x-showcase-intro h1{font-family:"Songti SC","STSong","SimSun",serif;font-size:clamp(44px,5vw,76px);font-weight:600;letter-spacing:.055em;line-height:1.14;margin:14px 0;color:#fffbf6}
+.x-showcase-intro .x-main-search{width:min(42%,420px);min-height:48px;padding:4px 5px 4px 14px;border-radius:16px;border-color:#a4a2ee66;background:rgba(24,26,68,.82)}
+.x-showcase-intro .x-main-search button{padding:8px 15px;background:#514a91;border-radius:12px;color:white}
+.x-showcase-intro .x-home-categories{display:flex;flex-wrap:wrap;gap:7px;margin:0;width:auto}
+.x-showcase-intro .x-home-categories>a{flex:none;padding:5px 13px;border-radius:30px;font-size:13px;color:#e1ddfc;background:rgba(112,104,172,.16);border-color:#b5a9f546;box-shadow:none}
+.x-showcase-featured-heading h2{font-size:clamp(20px,2vw,28px);letter-spacing:.025em}
+.x-showcase-featured-heading>div{flex-direction:row-reverse}
+.x-showcase-featured-heading .x-eyebrow{color:#b8afe1;font-size:10px;letter-spacing:1.7px}
 .x-home-showcase::before,.x-home-showcase::after{display:none}
 .x-work-card,.x-showcase-featured .x-work-card,
 .x-recent-panel,.x-studio-cta,.x-module-card,.x-library-filter,
@@ -70,7 +91,7 @@ body{
 .x-explore .x-empty,.x-owner-works .x-empty,.x-invite{
  background:var(--x-glass-fill);
  border-color:var(--x-glass-line);
- border-top-color:rgba(235,248,255,.65);
+ border-top-color:rgba(211,206,255,.40);
  box-shadow:var(--x-glass-shadow);
  -webkit-backdrop-filter:var(--x-glass-blur);
  backdrop-filter:var(--x-glass-blur);
@@ -135,7 +156,7 @@ body{
  box-shadow:inset 0 1px rgba(237,248,255,.18);
 }
 .x-primary,.x-carousel-editorial-cta{
- background:linear-gradient(180deg,rgba(248,253,255,.23),transparent 50%),linear-gradient(115deg,rgba(30,79,195,.82),rgba(41,76,166,.64));
+ background:linear-gradient(155deg,#6762b6,#544f9f 55%,#414785);
  border-color:rgba(220,240,255,.61);
  box-shadow:inset 1px 1px 1px rgba(252,254,255,.48),inset -1px -1px 1px rgba(0,17,74,.22),0 6px 20px rgba(20,59,177,.23);
  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
@@ -236,8 +257,7 @@ body{
  :root{--x-glass-blur:blur(12px) saturate(120%)}
  .x-header{-webkit-backdrop-filter:blur(16px) saturate(125%);backdrop-filter:blur(16px) saturate(125%)}
  .x-home-showcase{border-radius:0;-webkit-backdrop-filter:none;backdrop-filter:none}
- .x-home-intro.x-showcase-intro{padding:24px 20px;border-radius:22px}
- .x-glass-scene>svg{opacity:.62}
+ .x-home-intro.x-showcase-intro{padding:28px 22px;border-radius:22px}
  .x-work-card,.x-showcase-featured .x-work-card{-webkit-backdrop-filter:blur(8px) brightness(.8);backdrop-filter:blur(8px) brightness(.8)}
  .x-dialog{border-radius:17px;-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
 }
@@ -246,6 +266,14 @@ body{
  .x-recent-row,.x-recent-row:hover{background:linear-gradient(90deg,transparent 60px,rgba(172,210,255,.075) 61px,rgba(110,166,234,.025))}
 }
 @media(max-width:620px){
+ .x-home-page .x-home-showcase>.x-home-intro.x-showcase-intro{padding:clamp(165px,48vw,246px) 18px 23px;min-height:0;gap:14px;overflow:hidden}
+ .x-home-intro.x-showcase-intro::before{inset:0 0 auto;width:100%;height:clamp(180px,55vw,275px);aspect-ratio:auto;background-position:right center;mask-image:linear-gradient(#000 70%,transparent)}
+ .x-showcase-intro h1{font-size:clamp(35px,8.7vw,49px);margin:7px 0}
+ .x-showcase-intro .x-main-search{width:100%}
+ .x-showcase-intro .x-home-categories{gap:5px}
+ .x-showcase-intro .x-home-categories>a{padding:5px 10px;font-size:12px}
+ .x-showcase-featured-heading>div{display:flex;gap:8px}
+ .x-showcase-featured .x-work-image{aspect-ratio:1.28}
  .x-recent-row,.x-recent-row:hover{background:linear-gradient(90deg,transparent 60px,rgba(172,210,255,.075) 61px,rgba(110,166,234,.025))}
 }
 @media(max-width:359px){
@@ -271,6 +299,7 @@ body{
  .x-work-card:hover,.x-showcase-featured .x-work-card:hover,.x-home-categories>a:hover,.x-module-card:hover{transform:none!important}
 }
 @media(forced-colors:active){
+ .x-home-intro.x-showcase-intro::before{display:none}
  body{background:Canvas;color:CanvasText}
  .x-turing-wordmark{color:CanvasText}
  .x-header,.x-subnav,.x-home-showcase,.x-work-card,.x-showcase-featured .x-work-card,.x-recent-panel,.x-studio-cta,.x-module-card,.x-library-filter,.x-aside-panel,.x-review-unlock,.x-three-menu,.x-dialog,.x-footer{
